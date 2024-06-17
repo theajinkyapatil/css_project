@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coloring</title>
+    <style>
+        .box_size { height: 20px; width: 40px;}
+        #red {color: black; background-color: red; text-decoration: underline;}
+        #green {color: black; background-color: green;
+        text-decoration: underline; text-decoration-style: wavy; text-decoration-color: yellowgreen;}
+        /* for text-decoration-style we also need to mention text-decoration in it */
+        #abc {color: blue;}
+        #bcd {color: red; text-decoration: none;} /*this will remove underline from button*/
+    </style>
+</head>
+<body>
+    <p id="red" class="box_size"> Red</p>
+    <p id="green" class="box_size">Green</p>
+    <a id="abc" href="abc">Click Here</a>
+    <a id="bcd" href="bcd">Click Here2</a>
+</body>
+</html>

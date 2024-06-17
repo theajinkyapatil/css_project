@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * { margin: 0; padding: 0;}
+        .xyz {  height: 10px; width: 30px; margin: 5px;
+            background-color: chocolate; color: rgb(253, 186, 104);
+            display: inline; } /*in inline it does not take height and width properly we need to use inline block*/
+        .lmn  {  height: 10px; width: 30px; margin: 5px;
+            background-color: chocolate; color: rgb(253, 186, 104);
+            display: inline-block; }
+        .pqr {  height: 10px; width: 30px; margin: 5px;
+            background-color: chocolate; color: rgb(253, 186, 104);
+            display: block; }
+    </style>
+    <title>Display Property</title>
+</head>
+<body>
+    <div id="abc1" class="xyz">BOX1</div>
+    <div id="abc2" class="xyz">BOX2</div>
+    <div id="bcd1" class="pqr">BOX3</div>
+    <div id="bcd2" class="pqr">BOX4</div>
+    <div id="bcd3" class="lmn">BOX5</div>
+    <div id="bcd4" class="lmn">BOX6</div>
+</body>
+</html>
